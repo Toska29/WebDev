@@ -1,3 +1,85 @@
-body {
-    background-color: black;
+
+body{
+    background-color: pink;
+}
+
+@media screen  and (max-width: 480px){
+    body{
+        background-color: lightgreen;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body{
+        background-color: black;
+        color: white;
+    }
+}
+
+tbody tr:hover {
+    background-color: grey;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(197, 196, 196);
+}
+thead {
+    background-color: grey;
+    color: white;
+}
+table{
+    padding: 10px;
+}
+p {
+    color: red;
+}
+p.example1 {
+    display: none;
+}
+p.example2 {
+    display: block;
+}
+p.example3 {
+    display: inline;
+}
+p.example4 {
+    display: inline-block;;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+figure img {
+    width: 150px;
+    height: 150px;
+}
+figure{
+    border: 1pt solid;
+    background-color : #EDEDDD;
+    padding: 5px;
+    width: 150px;
+    /*position: absolute;
+    top: 150px;
+    left: 200px*/
+}
+figcaption{
+    background-color: khaki;
+   /* position: absolute;
+    top: 90px;
+    left: 140px;*/
+}
+figure{
+   /* z-index: -3;*/
+   float: left;
+}
+figcaption{
+    z-index: -1;
+}
+.first{
+    clear: left;
+}
+
+@media screen  and (max-width: 480px){
+.mobile-hide{
+    display: none;
+}
 }

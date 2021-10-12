@@ -1,3 +1,9 @@
-body {
+/*body {
     background-color: brown;
+}*/
+.container-fluid{
+    background-color: rgb(219, 159, 159);
+}
+.col-color1{
+    background-color: teal;
 }
